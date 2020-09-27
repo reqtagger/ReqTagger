@@ -1,0 +1,1046 @@
+{
+    "Vicinity": {
+        "What is an IoT device?":{
+            "expected_entities": ["IoT device"],
+            "expected_relations": [],
+        },
+        "What is a partnership?":{
+            "expected_entities": ["partnership"],
+            "expected_relations": [],
+        },
+        "What attributes has a partnership?":{
+            "expected_entities": ["attributes", "partnership"],
+            "expected_relations": [],
+        },
+        "Which are the relationships a partnership is involved in ?":{
+            "expected_entities": ["relationships", "partnership"],
+            "expected_relations": ["is involved in"],
+        },
+        "How many organizations can have a partnership?":{
+            "expected_entities": ["organizations", "partnership"],
+            "expected_relations": ["can have"],
+        },
+        "What is the relation between organization and devices?":{
+            "expected_entities": ["organization", "relation", "devices"],
+            "expected_relations": [],
+        },
+        "What is an IoT infrastructre?":{
+            "expected_entities": ["IoT infrastructre"],
+            "expected_relations": [],
+        },
+        "Who is the owner of a given device?":{
+            "expected_entities": ["owner", "given device"],
+            "expected_relations": [],
+        },
+        "Which attributes can have a device?":{
+            "expected_entities": ["attributes", "device"],
+            "expected_relations": ["can have"],
+        },
+        "What is a device profile?":{
+            "expected_entities": ["device profile"],
+            "expected_relations": [],
+        },
+        "Which are the social relationships a device can be involved in?":{
+            "expected_entities": ["social relationships", "device"],
+            "expected_relations": ["can be involved in"],
+        },
+        "Which roles are involved in a ownership relationship?":{
+            "expected_entities": ["roles", "ownership relationship"],
+            "expected_relations": ["are involved in"],
+        },
+        "Which roles are involved in a partnership relationship?":{
+            "expected_entities": ["roles", "partnership relationship"],
+            "expected_relations": ["are involved in"],
+        },
+        "What is a user?":{
+            "expected_entities": ["user"],
+            "expected_relations": [],
+        },
+        "Who is a service provider?":{
+            "expected_entities": ["service provider"],
+            "expected_relations": [],
+        },
+        "What are the parameters that has a service?":{
+            "expected_entities": ["parameters", "service"],
+            "expected_relations": [],
+        },
+        "What is a service logical name?":{
+            "expected_entities": ["service logical name"],
+            "expected_relations": [],
+        },
+        "Which devices are there?":{
+            "expected_entities": ["devices"],
+            "expected_relations": [],
+        },
+        "What are the devices of a given agent or organization?":{
+            "expected_entities": ["devices", "given agent", "organization"],
+            "expected_relations": [],
+        },
+        "Which devices can I see?":{
+            "expected_entities": ["devices"],
+            "expected_relations": ["see"],
+        },
+        "Which services can I see?":{
+            "expected_entities": ["services"],
+            "expected_relations": ["see"],
+        },
+        "What are the devices of a specific partner?":{
+            "expected_entities": ["devices", "specific partner"],
+            "expected_relations": [],
+        },
+        "What are the services of a specific partner?":{
+            "expected_entities": ["services", "specific partner"],
+            "expected_relations": [],
+        },
+        "Which is the profile of a given device?":{
+            "expected_entities": ["profile", "given device"],
+            "expected_relations": [],
+        },
+        "What is a building?":{
+            "expected_entities": ["building"],
+            "expected_relations": [],
+        },
+        "Where is something located?":{
+            "expected_entities": ["something"],
+            "expected_relations": ["located"],
+        },
+        "Which devices measure temperature?":{
+            "expected_entities": ["devices", "temperature"],
+            "expected_relations": ["measure"],
+        },
+        "Which devices measure CO2?":{
+            "expected_entities": ["devices", "CO2"],
+            "expected_relations": ["measure"],
+        },
+        "Which devices measure noise?":{
+            "expected_entities": ["devices", "noise"],
+            "expected_relations": ["measure"],
+        },
+        "Which devices measure humidity?":{
+            "expected_entities": ["devices", "humidity"],
+            "expected_relations": ["measure"],
+        },
+        "What is a thing description?":{
+            "expected_entities": ["thing description"],
+            "expected_relations": [],
+        },
+        "Which devices are located at a CERTH lab?":{
+            "expected_entities": ["devices", "CERTH lab"],
+            "expected_relations": ["are located at"],
+        },
+        "Which properties does a people counting observe?":{
+            "expected_entities": ["properties", "people counting"],
+            "expected_relations": ["observe"],
+        },
+        "Which properties does a humidity sensor observe?":{
+            "expected_entities": ["properties", "humidity sensor"],
+            "expected_relations": ["observe"],
+        },
+        "Which properties does a light switch observe?":{
+            "expected_entities": ["properties", "light switch"],
+            "expected_relations": ["observe"],
+        },
+        "Which properties does a motion sensor observe?":{
+            "expected_entities": ["properties", "motion sensor"],
+            "expected_relations": ["observe"],
+        },
+        "Which properties does a thermometer observe?":{
+            "expected_entities": ["properties", "thermometer"],
+            "expected_relations": ["observe"],
+        },
+        "Which properties does a CO2 sensor observe?":{
+            "expected_entities": ["properties", "CO2 sensor"],
+            "expected_relations": ["observe"],
+        },
+        "Which properties does a HVAC sensor observe?":{
+            "expected_entities": ["properties", "HVAC sensor"],
+            "expected_relations": ["observe"],
+        },
+        "Which devices are located at a Oslo SciencePark?":{
+            "expected_entities": ["devices", "Oslo SciencePark"],
+            "expected_relations": ["are located at"],
+        },
+        "Which devices are located at UNIKL?":{
+            "expected_entities": ["devices", "UNIKL"],
+            "expected_relations": ["are located at"],
+        },
+        "Which properties does an ebike charger observe?":{
+            "expected_entities": ["properties", "ebike charger"],
+            "expected_relations": ["observe"],
+        },
+        "Which properties does a light bulb observe?":{
+            "expected_entities": ["properties", "light bulb"],
+            "expected_relations": ["observe"],
+        },
+        "Which properties does a door sensor observe?":{
+            "expected_entities": ["properties", "door sensor"],
+            "expected_relations": ["observe"],
+        },
+        "Which properties does a window sensor observe?":{
+            "expected_entities": ["properties", "window sensor"],
+            "expected_relations": ["observe"],
+        },
+        "Which properties does a thermostat observe?":{
+            "expected_entities": ["properties", "thermostat"],
+            "expected_relations": ["observe"],
+        },
+        "Which devices are located at a CERTH lab?":{
+            "expected_entities": ["devices", "CERTH lab"],
+            "expected_relations": ["are located at"],
+        },
+        "Which properties does a weight scale observe?":{
+            "expected_entities": ["properties", "weight scale"],
+            "expected_relations": ["observe"],
+        },
+        "Which properties does a weight scale affect?":{
+            "expected_entities": ["properties", "weight scale"],
+            "expected_relations": ["affect"],
+        },
+        "Which properties from a weight scale are observed in events?":{
+            "expected_entities": ["properties", "weight scale", "events"],
+            "expected_relations": ["are observed in"],
+        },
+        "Which properties does a blood pressure monitor observe?":{
+            "expected_entities": ["properties", "blood pressure monitor"],
+            "expected_relations": ["observe"],
+        },
+        "Which properties does a blood pressure monitor affect?":{
+            "expected_entities": ["properties", "blood pressure monitor"],
+            "expected_relations": ["affect"],
+        },
+        "Which properties from a blood pressure monitor are observed in events?":{
+            "expected_entities": ["properties", "blood pressure monitor", "events"],
+            "expected_relations": ["are observed in"],
+        },
+        "Which properties does an activity tracker observe?":{
+            "expected_entities": ["properties", "activity tracker"],
+            "expected_relations": ["observe"],
+        },
+        "Which properties does an activity tracker affect?":{
+            "expected_entities": ["properties", "activity tracker"],
+            "expected_relations": ["affect"],
+        },
+        "Which properties from an activity tracker are observed in events?":{
+            "expected_entities": ["properties", "activity tracker", "events"],
+            "expected_relations": ["are observed in"],
+        },
+        "Which properties from a panic button are observed in events?":{
+            "expected_entities": ["properties", "panic button", "events"],
+            "expected_relations": ["are observed in"],
+        },
+        "Which properties does a motion sensor observe?":{
+            "expected_entities": ["properties", "motion sensor"],
+            "expected_relations": ["observe"],
+        },
+  },
+  "VicinityWOT": {
+        "What is a thing in the web thing context?":{
+            "expected_entities": ["thing", "web thing context"],
+            "expected_relations": [],
+        },
+        "What is a servient?":{
+            "expected_entities": ["servient"],
+            "expected_relations": [],
+        },
+        "What is a repository?":{
+            "expected_entities": ["repository"],
+            "expected_relations": [],
+        },
+        "What is a property?":{
+            "expected_entities": ["property"],
+            "expected_relations": [],
+        },
+        "What is an action?":{
+            "expected_entities": ["action"],
+            "expected_relations": [],
+        },
+        "What is an event?":{
+            "expected_entities": ["event"],
+            "expected_relations": [],
+        },
+        "What is a protocol?":{
+            "expected_entities": ["protocol"],
+            "expected_relations": []
+    },
+  },
+  "BTN": {
+        "Which is the height of peak?":{
+            "expected_entities": ["height", "peak"],
+            "expected_relations": [],
+        },
+        "Which are the geometries and maximum levels of the Curvas de Nivel Maestra of bathymetric type?":{
+            "expected_entities": ["geometries", "maximum levels", "Curvas de Nivel Maestra", "bathymetric"],
+            "expected_relations": [],
+        },
+        "Which is the name and geometry of the primary interest mountain range?":{
+            "expected_entities": ["name", "geometry", "primary interest mountain range"],
+            "expected_relations": [],
+        },
+        "Which are the rivers of tertiary interest at ground level?":{
+            "expected_entities": ["rivers", "tertiary interest", "ground level"],
+            "expected_relations": [],
+        },
+        "Which are the names and geometry of the major canals at ground level?":{
+            "expected_entities": ["names", "geometry", "major canals", "ground level"],
+            "expected_relations": [],
+        },
+        "Which are the permanent regime lagoons?":{
+            "expected_entities": ["permanent regime lagoons"],
+            "expected_relations": [],
+        },
+        "Which is the geometry of the wetlands of rambla type?":{
+            "expected_entities": ["geometry", "wetlands", "rambla"],
+            "expected_relations": [],
+        },
+        "Which are the names of the seas that surround the Spanish territory?":{
+            "expected_entities": ["names", "seas", "Spanish territory"],
+            "expected_relations": ["surround"],
+        },
+        "Which capitals from the population center has a population density higher than Madrid?":{
+            "expected_entities": ["capitals", "population center", "population density", "Madrid"],
+            "expected_relations": ["higher than"],
+        },
+        "Which are the names and geometry of the population center that has a population density higher than Madrid?":{
+            "expected_entities": ["names", "geometry", "population center", "population density", "Madrid"],
+            "expected_relations": ["higher than"],
+        },
+        "What are the name of disseminated places that are not capitals of municipality?":{
+            "expected_entities": ["name", "disseminated places", "capitals",  "municipality"],
+            "expected_relations": [],
+        },
+        "What are the name of  superficial disseminated places that are  capitals of municipality?":{
+            "expected_entities": ["name", "superficial disseminated places", "capitals",  "municipality"],
+            "expected_relations": [],
+        },
+        "Which are the names of the free access motorways?":{
+            "expected_entities": ["names", "free access motorways"],
+            "expected_relations": [],
+        },
+        "Which are the names of the national highway which belong to the european highway network?":{
+            "expected_entities": ["names", "national highway", "european highway network"],
+            "expected_relations": ["belong to"],
+        },
+        "Which are the names of the national highway which do not belong to the european highway network?":{
+            "expected_entities": ["names", "national highway", "european highway network"],
+            "expected_relations": ["belong to"],
+        },
+        "Which are the names and geometry of the itinerary which belong to the Camino de Santiago?":{
+            "expected_entities": ["names", "geometry", "itinerary", "Camino de Santiago"],
+            "expected_relations": ["belong to"],
+        },
+        "Which are the FFCC stations that are stopping places and which are the FFCC stations that have passenger traffic?":{
+            "expected_entities": ["FFCC stations", "stopping places", "FFCC stations", "passenger traffic"],
+            "expected_relations": [],
+        },
+        "Which are the geometries of the cable transport?":{
+            "expected_entities": ["geometries", "cable transport"],
+            "expected_relations": [],
+        },
+        "Which are the sea ports that are not under state control?":{
+            "expected_entities": ["sea ports", "state control"],
+            "expected_relations": ["are under"],
+        },
+        "Which are the heliport that are not under state control and do not belong to the trans-European transport network?":{
+            "expected_entities": ["heliport", "state control", "trans-European transport network"],
+            "expected_relations": ["are under", "belong to"],
+        }, 
+        "Which are the oil pipelines at ground level?":{
+            "expected_entities": ["oil pipelines", "ground level"],
+            "expected_relations": [],
+        },
+        "Which are the low voltage electric lines?":{
+            "expected_entities": ["low voltage electric lines"],
+            "expected_relations": [],
+        },
+        "Which are the nuclear power plants?":{
+            "expected_entities": ["nuclear power plants"],
+            "expected_relations": [],
+        },
+        "Which are the names, altitudes and longitudes of the lower order geodesic vertex ?":{
+            "expected_entities": ["names", "altitudes", "longitudes", "lower order geodesic vertex"],
+            "expected_relations": [],
+        },
+        "Which roads cross a municipality ?":{
+            "expected_entities": ["roads", "municipality"],
+            "expected_relations": ["cross"],
+        },
+        "Which are the AVE lines that connect two towns?":{
+            "expected_entities": ["AVE lines", "towns"],
+            "expected_relations": ["connect"],
+        },
+        "which is the optimum way between two population centers?":{
+            "expected_entities": ["optimum way", "population centers"],
+            "expected_relations": [],
+        },
+        "Which are the towns though which the Camino de santiago passes?":{
+            "expected_entities": ["towns", "Camino de santiago"],
+            "expected_relations": ["passes"],
+        },
+        "Which are the initial point and the end point of the road?": {
+            "expected_entities": ["initial point", "end point", "road"],
+            "expected_relations": [],
+        },
+        "Which are the initial point and the end point of the railway?":{
+            "expected_entities": ["initial point", "end point", "railway"],
+            "expected_relations": [],
+        },
+        "Which are the places of interest in a town ?":{
+            "expected_entities": ["places", "interest", "town"],
+            "expected_relations": [],
+        },
+        "Which are the historic places in a town?":{
+            "expected_entities": ["historic places", "town"],
+            "expected_relations": [],
+        },
+        "Which churches are placed in a town?":{
+            "expected_entities": ["churches", "town"],
+            "expected_relations": ["are placed in"],
+        },
+        "Which are the monuments of cultural interest in a town?":{
+            "expected_entities": ["monuments", "cultural interest", "town"],
+            "expected_relations": [],
+        },
+        "Which places of interest are in a province?":{
+            "expected_entities": ["places", "interest", "province"],
+            "expected_relations": ["are in"],
+        },
+        "Which historic places are in a province?":{
+            "expected_entities": ["historic places", "province"],
+            "expected_relations": ["are in"],
+        },
+        "Which goods of cultural interest are in a province?":{
+            "expected_entities": ["goods", "cultural interest", "province"],
+            "expected_relations": ["are in"],
+        },
+        "Which places of interest are in a county?":{
+            "expected_entities": ["places", "interest", "county"],
+            "expected_relations": ["are in"],
+        },
+        "Which historic places are in a county?":{
+            "expected_entities": ["historic places", "county"],
+            "expected_relations": ["are in"],
+        },
+        "Which goods of cultural interest are in a county?":{
+            "expected_entities": ["goods", "cultural interest", "county"],
+            "expected_relations": ["are in"],
+        },
+        "Which beaches are placed in the province?":{
+            "expected_entities": ["beaches", "province"],
+            "expected_relations": ["are placed in"]
+        }, 
+        "Which gas stations are placed in the municipality?":{
+            "expected_entities": ["gas stations", "municipality"],
+            "expected_relations": ["are placed in"],
+        },
+        "Which electric lines passes through a municipality?":{
+            "expected_entities": ["electric lines", "municipality"],
+            "expected_relations": ["passes through"],
+        },
+        "Which municipalities are connected through the electric line?":{
+            "expected_entities": ["municipalities", "electric line"],
+            "expected_relations": ["are connected through"],
+        },
+        "Which hospital attend to a particular municipality?":{
+            "expected_entities": ["hospital", "particular municipality"],
+            "expected_relations": ["attend to"],
+        },
+        "Which communication stations are in a particular municipality?":{
+            "expected_entities": ["communication stations", "particular municipality"],
+            "expected_relations": [],
+        },
+        "Which mines are in a particular province?":{
+            "expected_entities": ["mines", "particular province"],
+            "expected_relations": [],
+        },
+        "Which mines are within a particular distance in a particular municipality?":{
+            "expected_entities": ["mines", "particular distance", "particular municipality"],
+            "expected_relations": [],
+        },
+        "What geodesic vertex are in a particular municipality?":{
+            "expected_entities": ["geodesic vertex", "particular municipality"],
+            "expected_relations": [],
+        },
+        "What REDNAP signals are in a municipality?":{
+            "expected_entities": ["REDNAP signals", "municipality"],
+            "expected_relations": [],
+        },
+        "Which is the altitude of the municipality?":{
+            "expected_entities": ["altitude", "municipality"],
+            "expected_relations": [],
+        },
+        "Which is the altitude of the peak or mountain?":{
+            "expected_entities": ["altitude", "peak", "mountain"],
+            "expected_relations": [],
+        },
+        "Which are the NP placed along the river?":{
+            "expected_entities": ["NP", "river"],
+            "expected_relations": ["placed along"],
+        },
+        "Which are the cave type places of interest which are also good of cultural interest?":{
+            "expected_entities": ["cave type places", "interest", "cultural interest"],
+            "expected_relations": ["are also good"],
+        },
+        "Which are the good of cultural interest of the national park?":{
+            "expected_entities": ["good", "cultural interest", "national park"],
+            "expected_relations": [],
+        },
+        "Which are the railway stations of the province?":{
+            "expected_entities": ["railway stations", "province"],
+            "expected_relations": [],
+        },
+        "Which are the airports of the autonomous region?":{
+            "expected_entities": ["airports", "autonomous region"],
+            "expected_relations": [],
+        },
+        "Through which villages does the road goes through ?":{
+            "expected_entities": ["villages", "road"],
+            "expected_relations": ["goes through"]
+        },
+        "Which are the National Parks?":{
+            "expected_entities": ["National Parks"],
+            "expected_relations": [],
+        },
+        "Which are the natural places?":{
+            "expected_entities": ["natural places"],
+            "expected_relations": [],
+        },
+        "Which are the Special bird protection area?":{
+            "expected_entities": ["Special bird protection area"],
+            "expected_relations": [],
+        },
+        "Which river cross the National Park?":{
+            "expected_entities": ["river", "National Park"],
+            "expected_relations": ["cross"],
+        },
+        "Which municiaplities are located inside the PN":{
+            "expected_entities": ["municiaplities", "PN"],
+            "expected_relations": ["are located inside"],
+        },
+        "Which roads cross the PN?":{
+            "expected_entities": ["roads", "PN"],
+            "expected_relations": ["cross"],
+        },
+        "How many and which are the surface water located inside the PN?":{
+            "expected_entities": ["surface water", "PN"],
+            "expected_relations": ["located inside"],
+        },
+        "Which are the protected areas in Spain?":{
+            "expected_entities": ["protected areas", "Spain"],
+            "expected_relations": [],
+        },
+        "Which are the tributaries on the right of the river?":{
+            "expected_entities": ["tributaries", "right", "river"],
+            "expected_relations": [],
+        },
+        "Where does the river flows into?":{
+            "expected_entities": ["river"],
+            "expected_relations": ["flows into"],
+        },
+        "How many rivers flow into the sea or ocean zzz?":{
+            "expected_entities": ["rivers", "sea", "ocean zzz"],
+            "expected_relations": ["flow into"],
+        },
+        "What are the rivers which belong to municipality?":{
+            "expected_entities": ["rivers", "municipality"],
+            "expected_relations": ["belong to"],
+        },
+        "Through which autonomous community does the river flow into ?":{
+            "expected_entities": ["autonomous community", "river"],
+            "expected_relations": ["flow into"],
+        },
+        "Through which provinces does the river flow into ?":{
+            "expected_entities": ["provinces", "river"],
+            "expected_relations": ["flow into"],
+        },
+        "Through which municipalities does the river flow into?":{
+            "expected_entities": ["municipalities", "river"],
+            "expected_relations": ["flow into"],
+        },
+        "Which town is adjacent to town?":{
+            "expected_entities": ["town", "town"],
+            "expected_relations": ["is adjacent to"],
+        },
+        "Which municipality belongs to province?":{
+            "expected_entities": ["municipality", "province"],
+            "expected_relations": ["belongs to"],
+        },
+        "Which municipality belongs to the autonomous community?":{
+            "expected_entities": ["municipality", "autonomous community"],
+            "expected_relations": ["belongs to"],
+        },
+        "What are the reservoirs of the river?":{
+            "expected_entities": ["reservoirs", "river"],
+            "expected_relations": [],
+        },
+  }, 
+  "SAREF": {
+        "What is a device?": {
+            "expected_entities": ["device"],
+            "expected_relations": []
+        },
+  },
+  "SAREF4BLDG": {
+        "What is a building?": {
+            "expected_entities": ["building"],
+            "expected_relations": [],
+        },
+        "What is a shading device?":{
+            "expected_entities": ["shading device"],
+            "expected_relations": [],
+        },
+        "Which properties has a shading device?":{
+            "expected_entities": ["properties", "shading device"],
+            "expected_relations": [],
+        },
+        "What is an actuator?":{
+            "expected_entities": ["actuator"],
+            "expected_relations": [],
+        },
+        "What is an alarm?":{
+            "expected_entities": ["alarm"],
+            "expected_relations": [],
+        },
+        "What is a controller?":{
+            "expected_entities": ["controller"],
+            "expected_relations": [],
+        },
+        "What is a flow instrument?":{
+            "expected_entities": ["flow instrument"],
+            "expected_relations": [],
+        },
+        "What is a sensor?":{
+            "expected_entities": ["sensor"],
+            "expected_relations": [],
+        },
+        "What is a unitary control element?":{
+            "expected_entities": ["unitary control element"],
+            "expected_relations": [],
+        },
+        "Which properties has an actuator?":{
+            "expected_entities": ["properties", "actuator"],
+            "expected_relations": [],
+        },
+        "What is a protective device tripping unit?":{
+            "expected_entities": ["protective device tripping unit"],
+            "expected_relations": [],
+        },
+        "What is an audio visual appliance?":{
+            "expected_entities": ["audio visual appliance"],
+            "expected_relations": [],
+        },
+        "What is a communication appliance?":{
+            "expected_entities": ["communication appliance"],
+            "expected_relations": [],
+        },
+        "What is an electric appliance?":{
+            "expected_entities": ["electric appliance"],
+            "expected_relations": [],
+        },
+        "What is an electric flow storage device?":{
+            "expected_entities": ["electric flow storage device"],
+            "expected_relations": [],
+        },
+        "What is an electric generator?":{
+            "expected_entities": ["electric generator"],
+            "expected_relations": [],
+        },
+        "What is an electric motor?":{
+            "expected_entities": ["electric motor"],
+            "expected_relations": [],
+        },
+        "What is an electric time control?":{
+            "expected_entities": ["electric time control"],
+            "expected_relations": [],
+        },
+        "What is a lamp?":{
+            "expected_entities": ["lamp"],
+            "expected_relations": [],
+        },
+        "What is an outlet?":{
+            "expected_entities": ["outlet"],
+            "expected_relations": [],
+        },
+        "What is a protective device?":{
+            "expected_entities": ["protective device"],
+            "expected_relations": [],
+        },
+        "What is a solar device?":{
+            "expected_entities": ["solar device"],
+            "expected_relations": [],
+        },
+        "What is a switching device?":{
+            "expected_entities": ["switching device"],
+            "expected_relations": [],
+        },
+        "What is a transformer?":{
+            "expected_entities": ["transformer"],
+            "expected_relations": [],
+        },
+        "Which properties has a protective device tripping unit?":{
+            "expected_entities": ["properties", "protective device tripping unit"],
+            "expected_relations": [],
+        },
+        "Which properties has an audio visual appliance?":{
+            "expected_entities": ["properties", "audio visual appliance"],
+            "expected_relations": [],
+        },
+        "Which properties has an electric flow storage device?":{
+            "expected_entities": ["properties", "electric flow storage device"],
+            "expected_relations": [],
+        },
+        "Which properties has an electric generator?":{
+            "expected_entities": ["properties", "electric generator"],
+            "expected_relations": [],
+        },
+        "Which properties has an electric motor?":{
+            "expected_entities": ["properties", "electric motor"],
+            "expected_relations": [],
+        },
+        "Which properties has a lamp?":{
+            "expected_entities": ["properties", "lamp"],
+            "expected_relations": [],
+        },
+        "Which properties has an outlet?":{
+            "expected_entities": ["properties", "outlet"],
+            "expected_relations": [],
+        },
+        "Which properties has a switching device?":{
+            "expected_entities": ["properties", "switching device"],
+            "expected_relations": [],
+        },
+        "Which properties has a transformer?":{
+            "expected_entities": ["properties", "transformer"],
+            "expected_relations": [],
+        },
+        "What is an air to air heat recovery?":{
+            "expected_entities": ["air", "air heat recovery"],
+            "expected_relations": [],
+        },
+        "What is a burner?":{
+            "expected_entities": ["burner"],
+            "expected_relations": [],
+        },
+        "What is a chiller?":{
+            "expected_entities": ["chiller"],
+            "expected_relations": [],
+        },
+        "What is a boiler?":{
+            "expected_entities": ["boiler"],
+            "expected_relations": [],
+        },
+        "What is a coil?":{
+            "expected_entities": ["coil"],
+            "expected_relations": [],
+        },
+        "What is a compressor?":{
+            "expected_entities": ["compressor"],
+            "expected_relations": [],
+        },
+        "What is a condenser?":{
+            "expected_entities": ["condenser"],
+            "expected_relations": [],
+        },
+        "What is a cooled beam?":{
+            "expected_entities": ["cooled beam"],
+            "expected_relations": [],
+        },
+        "What is a cooling tower?":{
+            "expected_entities": ["cooling tower"],
+            "expected_relations": [],
+        },
+        "What is a damper?":{
+            "expected_entities": ["damper"],
+            "expected_relations": [],
+        },
+        "What is a duct silencer?":{
+            "expected_entities": ["duct silencer"],
+            "expected_relations": [],
+        },
+        "What is an engine?":{
+            "expected_entities": ["engine"],
+            "expected_relations": [],
+        },
+        "What is an evaporative cooler?":{
+            "expected_entities": ["evaporative cooler"],
+            "expected_relations": [],
+        },
+        "What is an evaporator?":{
+            "expected_entities": ["evaporator"],
+            "expected_relations": []
+        },
+        "What is a fan?":{
+            "expected_entities": ["fan"],
+            "expected_relations": [],
+        },
+        "What is a filter?":{
+            "expected_entities": ["filter"],
+            "expected_relations": [],
+        },
+        "What is a flow meter?":{
+            "expected_entities": ["flow meter"],
+            "expected_relations": [],
+        },
+        "What is a heat exchanger?":{
+            "expected_entities": ["heat exchanger"],
+            "expected_relations": [],
+        },
+        "What is a humidifier?":{
+            "expected_entities": ["humidifier"],
+            "expected_relations": [],
+        },
+        "What is a medical device?":{
+            "expected_entities": ["medical device"],
+            "expected_relations": [],
+        },
+        "What is a pump?":{
+            "expected_entities": ["pump"],
+            "expected_relations": [],
+        },
+        "What is a space heater?":{
+            "expected_entities": ["space heater"],
+            "expected_relations": [],
+        },
+        "What is a tank?":{
+            "expected_entities": ["tank"],
+            "expected_relations": [],
+        },
+        "What is a tube bundle?":{
+            "expected_entities": ["tube bundle"],
+            "expected_relations": [],
+        },
+        "What is a unitary equipment?":{
+            "expected_entities": ["unitary equipment"],
+            "expected_relations": [],
+        },
+        "What is a valve?":{
+            "expected_entities": ["valve"],
+            "expected_relations": [],
+        },
+        "What is a vibration isolator?":{
+            "expected_entities": ["vibration isolator"],
+            "expected_relations": [],
+        },
+        "Which properties has an air to air heat recovery?":{
+            "expected_entities": ["properties", "air", "air heat recovery"],
+            "expected_relations": [],
+        },
+        "Which properties has a burner?":{
+            "expected_entities": ["properties", "burner"],
+            "expected_relations": [],
+        },
+        "Which properties has a chiller?":{
+            "expected_entities": ["properties", "chiller"],
+            "expected_relations": [],
+        },
+        "Which properties has a boiler?":{
+            "expected_entities": ["properties", "boiler"],
+            "expected_relations": [],
+        },
+        "Which properties has a coil?":{
+            "expected_entities": ["properties", "coil"],
+            "expected_relations": [],
+        },
+        "Which properties has a compressor?":{
+            "expected_entities": ["properties", "compressor"],
+            "expected_relations": [],
+        },
+        "Which properties has a condenser?":{
+            "expected_entities": ["properties", "condenser"],
+            "expected_relations": [],
+        },
+        "Which properties has a cooled beam?":{
+            "expected_entities": ["properties", "cooled beam"],
+            "expected_relations": [],
+        },
+        "Which properties has a cooling tower?":{
+            "expected_entities": ["properties", "cooling tower"],
+            "expected_relations": [],
+        },
+        "Which properties has a damper?":{
+            "expected_entities": ["properties", "damper"],
+            "expected_relations": [],
+        },
+        "Which properties has a duct silencer?":{
+            "expected_entities": ["properties", "duct silencer"],
+            "expected_relations": [],
+        },
+        "Which properties has an engine?":{
+            "expected_entities": ["properties", "engine"],
+            "expected_relations": [],
+        },
+        "Which properties has an evaporative cooler?":{
+            "expected_entities": ["properties", "evaporative cooler"],
+            "expected_relations": [],
+        },
+        "Which properties has an evaporator?":{
+            "expected_entities": ["properties", "evaporator"],
+            "expected_relations": [],
+        },
+        "Which properties has a fan?":{
+            "expected_entities": ["properties", "fan"],
+            "expected_relations": [],
+        },
+        "Which properties has a filter?":{
+            "expected_entities": ["properties", "filter"],
+            "expected_relations": [],
+        },
+        "Which properties has a flow meter?":{
+            "expected_entities": ["properties", "flow meter"],
+            "expected_relations": [],
+        },
+        "Which properties has a heat exchanger?":{
+            "expected_entities": ["properties", "heat exchanger"],
+            "expected_relations": [],
+        },
+        "Which properties has a humidifier?":{
+            "expected_entities": ["properties", "humidifier"],
+            "expected_relations": [],
+        },
+        "Which properties has a pump?":{
+            "expected_entities": ["properties", "pump"],
+            "expected_relations": [],
+        },
+        "Which properties has a space heater?":{
+            "expected_entities": ["properties", "space heater"],
+            "expected_relations": [],
+        },
+        "Which properties has a tank?":{
+            "expected_entities": ["properties", "tank"],
+            "expected_relations": [],
+        },
+        "Which properties has a tube bundle?":{
+            "expected_entities": ["properties", "tube bundle"],
+            "expected_relations": [],
+        },
+        "Which properties has a valve?":{
+            "expected_entities": ["properties", "valve"],
+            "expected_relations": [],
+        },
+        "Which properties has a vibration isolator?":{
+            "expected_entities": ["properties", "vibration isolator"],
+            "expected_relations": [],
+        },
+        "What is a fire suppression terminal?":{
+            "expected_entities": ["fire suppression terminal"],
+            "expected_relations": [],
+        },
+        "What is an interceptor?":{
+            "expected_entities": ["interceptor"],
+            "expected_relations": [],
+        },
+        "What is a sanitary terminal?":{
+            "expected_entities": ["sanitary terminal"],
+            "expected_relations": [],
+        },
+        "Which properties has an interceptor?":{
+            "expected_entities": ["properties", "interceptor"],
+            "expected_relations": [],
+        },
+        "What is an energy conversion device?":{
+            "expected_entities": ["energy conversion device"],
+            "expected_relations": [],
+        },
+        "What is a flow controller?":{
+            "expected_entities": ["flow controller"],
+            "expected_relations": [],
+        },
+        "What is a flow moving device?":{
+            "expected_entities": ["flow moving device"],
+            "expected_relations": [],
+        },
+        "What is a flow storage device?":{
+            "expected_entities": ["flow storage device"],
+            "expected_relations": [],
+        },
+        "What is a flow terminal?":{
+            "expected_entities": ["flow terminal"],
+            "expected_relations": [],
+        },
+        "What is a flow treatment device?":{
+            "expected_entities": ["flow treatment device"],
+            "expected_relations": [],
+        },
+        "What is a transport element?":{
+            "expected_entities": ["transport element"],
+            "expected_relations": [],
+        },
+        "Which properties has a transport element?":{
+            "expected_entities": ["properties", "transport element"],
+            "expected_relations": [],
+        },
+  },
+  "SAREF4ENVI": {
+        "What is a TESS?":{
+            "expected_entities": ["TESS"],
+            "expected_relations": [],
+        },
+        "Which type of sensor is a TESS?":{
+            "expected_entities": ["sensor", "TESS"],
+            "expected_relations": [],
+        },
+        "What is a photometer?":{
+            "expected_entities": ["photometer"],
+            "expected_relations": [],
+        },
+        "What is the main component of TESS?":{
+            "expected_entities": ["main component", "TESS"],
+            "expected_relations": [],
+        },
+        "Which are the communication interfaces available in TESS?":{
+            "expected_entities": ["communication interfaces", "TESS"],
+            "expected_relations": ["available in"],
+        },
+        "Which components of TESS are sensors?":{
+            "expected_entities": ["components", "TESS", "sensors"],
+            "expected_relations": [],
+        },
+        "Which properties can be measured by a photometer?":{
+            "expected_entities": ["properties", "photometer"],
+            "expected_relations": ["can be measured by"],
+        },
+        "Which are the properties observed by a TESS?":{
+            "expected_entities": ["properties", "TESS"],
+            "expected_relations": ["observed by"],
+        },
+        "Which type of RS232 is supported by TESS?":{
+            "expected_entities": ["RS232", "TESS"],
+            "expected_relations": ["is supported by"],
+        },
+        "Which type of Bluetooth is supported by TESS?":{
+            "expected_entities": ["Bluetooth", "TESS"],
+            "expected_relations": ["is supported by"],
+        },
+        "Which type of WiFi is supported by TESS?":{
+            "expected_entities": ["WiFi", "TESS"],
+            "expected_relations": ["is supported by"],
+        },
+        "Which are the components of TESS?":{
+            "expected_entities": ["components", "TESS"],
+            "expected_relations": [],
+        },
+        "Which hardware elements is a TESS connected to?":{
+            "expected_entities": ["hardware elements", "TESS"],
+            "expected_relations": ["connected to"],
+        },
+        "Which is the communication protocol used by TESS?":{
+            "expected_entities": ["communication protocol", "TESS"],
+            "expected_relations": ["used by"],
+        },
+        "What is the transmission period of the TESS?":{
+            "expected_entities": ["transmission period", "TESS"],
+            "expected_relations": [],
+        },
+        "What is a lamppost?":{
+            "expected_entities": ["lamppost"],
+            "expected_relations": [],
+        },
+        "What can be considered as physical objects?":{
+            "expected_entities": ["physical objects"],
+            "expected_relations": ["can be considered as"],
+        },
+        "What is a service?":{
+            "expected_entities": ["service"],
+            "expected_relations": [],
+        },
+  }
+}

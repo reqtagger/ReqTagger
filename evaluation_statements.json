@@ -1,0 +1,1213 @@
+{
+    "Vicinity": {
+        "Service thing description should be inline with Device thing description.": {
+			"expected_entities": ["Service thing description", "Device thing description"],
+			"expected_relations": ["be inline with"]
+		},
+        "Service thing description should be inline with WoT thing description.":{
+			"expected_entities": ["Service thing description", "WoT thing description"],
+			"expected_relations": ["be inline with"]
+		},
+        "Service thing description should define the concepts that service produces and provides to end user.":{
+			"expected_entities": ["Service thing description", "concepts", "service", "end user"],
+			"expected_relations": ["should define", "produces", "provides to"]
+		},
+        "Service thing description should define the interaction patterns how to interact with products of added value service.":{
+			"expected_entities": ["Service thing description", "interaction patterns", "products", "added value service"],
+			"expected_relations": ["should define", "interact with"]
+		},
+        "Service thing description should include its version.":{
+			"expected_entities": ["Service thing description", "version"],
+			"expected_relations": ["should include"]
+		},
+        "Service thing description should define required inputs for the products and supported interaction patterns.":{
+			"expected_entities": ["Service thing description", "required inputs", "products", "supported interaction patterns"],
+			"expected_relations": ["should define"]
+		},
+        "Each thing is described by WoT Thing Descriptions.":{
+			"expected_entities": ["thing", "WoT Thing Descriptions"],
+			"expected_relations": ["is described by"]
+		},
+        "An endpoint can be relative to an endpoint that must not be relative.":{
+			"expected_entities": ["endpoint", "endpoint"],
+			"expected_relations": ["can be relative to"]
+		},
+        "The IoT user can be human (human user) or nonhuman (digital user)":{
+			"expected_entities": ["IoT user", "human", "human user", "nonhuman", "digital user"],
+			"expected_relations": ["can be"]
+		},
+        "Digital user consumes services":{
+			"expected_entities": ["Digital user", "services"],
+			"expected_relations": ["consumes"]
+		},
+        "A human user interacts using applications":{
+			"expected_entities": ["human user", "applications"],
+			"expected_relations": ["interacts using"]
+		},
+        "An application is a specialized form of service":{
+			"expected_entities": ["application", "specialized form", "service"],
+			"expected_relations": []
+		},
+        "An Entity can be physical or virtual":{
+			"expected_entities": ["Entity", "physical", "virtual"],
+			"expected_relations": []
+		},
+        "A physical entity is controlled by an actuator":{
+			"expected_entities": ["physical entity", "actuator"],
+			"expected_relations": ["is controlled by"]
+		},
+        "A physical entity is monitored by a sensor":{
+			"expected_entities": ["physical entity", "sensor"],
+			"expected_relations": ["is monitored by"]
+		},
+        "A physical entity may have one or more attached tag":{
+			"expected_entities": ["physical entity", "attached tag"],
+			"expected_relations": ["may have"]
+		},
+        "A virtual entity represents a physical entity":{
+			"expected_entities": ["virtual entity", "physical entity"],
+			"expected_relations": ["represents"]
+		},
+        "Actuators and sensors are kinds of IoT device":{
+			"expected_entities": ["Actuators", "sensors", "IoT device"],
+			"expected_relations": []
+		},
+        "IoT devices interact through a network":{
+			"expected_entities": ["IoT devices", "network"],
+			"expected_relations": ["interact through"]
+		},
+        "IoT devices are connected with an IoT gateway":{
+			"expected_entities": ["IoT devices", "IoT gateway"],
+			"expected_relations": ["are connected with"]
+		},
+        "Data Stores hold data relating to IoT systems":{
+			"expected_entities": ["data", "Data Stores", "IoT systems"],
+			"expected_relations": ["hold", "relating to"]
+		},
+        "An entity has an identifier":{
+			"expected_entities": ["entity", "identifier"],
+			"expected_relations": []
+		},
+        "An entity can have more than one identifier":{
+			"expected_entities": ["entity", "identifier"],
+			"expected_relations": ["can have"]
+		},
+        "A network connects endpoints":{
+			"expected_entities": ["network", "endpoints"],
+			"expected_relations": ["connects"]
+		},
+        "A service exposes one or more endpoints by which it can be invoked":{
+			"expected_entities": ["A service", "endpoints"],
+			"expected_relations": ["exposes", "can be invoked"]
+		},
+        "An IoT gateway is a digital entity":{
+			"expected_entities": ["An IoT gateway", "a digital entity"],
+			"expected_relations": []
+		},
+        "IoT gateways interact through networks":{
+			"expected_entities": ["IoT gateways", "networks"],
+			"expected_relations": ["interact through"]
+		},
+        "IoT gateways expose endpoints":{
+			"expected_entities": ["IoT gateways", "endpoints"],
+			"expected_relations": ["expose"]
+		},
+        "IoT gateways connect IoT devices":{
+			"expected_entities": ["IoT gateways", "IoT devices"],
+			"expected_relations": ["connect"]
+		},
+        "IoT gateways use data stores":{
+			"expected_entities": ["IoT gateways", "data stores"],
+			"expected_relations": ["use"]
+		},
+        "IoT device interacts with one or more networks":{
+			"expected_entities": ["IoT device", "networks"],
+			"expected_relations": ["interacts with"]
+		},
+        "IoT device exposes one or more endpoints":{
+			"expected_entities": ["IoT device", "endpoints"],
+			"expected_relations": ["exposes"]
+		},
+        "A service interacts with other entities via one or more networks":{
+			"expected_entities": ["service", "other entities", "networks"],
+			"expected_relations": ["interacts with"]
+		},
+        "A service interacts with zero or more IoT gateways":{
+			"expected_entities": ["service", "IoT gateways"],
+			"expected_relations": ["interacts with"]
+		},
+        "A service interacts with zero or more IoT devices":{
+			"expected_entities": ["service", "IoT devices"],
+			"expected_relations": ["interacts with"]
+		},
+        "A service can interact with other services":{
+			"expected_entities": ["service", "other services"],
+			"expected_relations": ["can interact with"]
+		},
+        "A service can use data stores":{
+			"expected_entities": ["service", "data stores"],
+			"expected_relations": ["can use"]
+		},
+        "A virtual entity interacts through an endpoint":{
+			"expected_entities": ["virtual entity", "endpoint"],
+			"expected_relations": ["interacts through"]
+		},
+        "Everything in an IoT system is a kind of entity":{
+			"expected_entities": ["IoT system", "entity"],
+			"expected_relations": []
+		},
+        "Data associated with services, devices and gateways can be held in data stores":{
+			"expected_entities": ["Data", "services", "devices", "gateways", "data stores"],
+			"expected_relations": ["associated with", "can be held in"]
+		},
+        "Human users uses applications":{
+			"expected_entities": ["Human users", "applications"],
+			"expected_relations": ["uses"]
+		},
+        "An application typically uses Services":{
+			"expected_entities": ["application", "Services"],
+			"expected_relations": ["uses"]
+		},
+        "Sensors can monitor the tag attached to a physical entity rather than the physical entity itself":{
+			"expected_entities": ["Sensors", "the tag", "a physical entity", "the physical entity"],
+			"expected_relations": ["can monitor", "attached to"]
+		},
+        "A device profile indicates the device name":{
+			"expected_entities": ["A device profile", "device name"],
+			"expected_relations": ["indicates"]
+		},
+        "A device profile indicates the device avatar":{
+			"expected_entities": ["A device profile", "device avatar"],
+			"expected_relations": ["indicates"]
+		},
+        "A device profile indicates the type of device":{
+			"expected_entities": ["A device profile", "device"],
+			"expected_relations": ["indicates"]
+		},
+        "A device profile indicates the device vendor":{
+			"expected_entities": ["A device profile", "device vendor"],
+			"expected_relations": ["indicates"]
+		},
+        "A device profile indicates the device serial number":{
+			"expected_entities": ["A device profile", "device serial number"],
+			"expected_relations": ["indicates"]
+		},
+        "A service profile indicates the service name":{
+			"expected_entities": ["A service profile", "service name"],
+			"expected_relations": ["indicates"]
+		},
+        "A service profile indicates the service avatar":{
+			"expected_entities": ["A service profile", "service avatar"],
+			"expected_relations": ["indicates"]
+		},
+        "A service profile indicates the service owner":{
+			"expected_entities": ["A service profile", "service owner"],
+			"expected_relations": ["indicates"]
+		},
+        "A service profile indicates the service provider":{
+			"expected_entities": ["A service profile", "service provider"],
+			"expected_relations": ["indicates"]
+		},
+        "A service profile indicates the service description":{
+			"expected_entities": ["A service profile", "service description"],
+			"expected_relations": ["indicates"]
+		},
+        "A service profile indicates the service type":{
+			"expected_entities": ["A service profile", "service type"],
+			"expected_relations": ["indicates"]
+		},
+        "A partnership is established between organizations":{
+			"expected_entities": ["A partnership", "organizations"],
+			"expected_relations": ["is established between"]
+		},
+        "A partnership is established between only 2 organizations":{
+			"expected_entities": ["A partnership", "organizations"],
+			"expected_relations": ["is established between"]
+		},
+        "A neighbourhood is the group of partnerships you have":{
+			"expected_entities": ["neighbourhood", "group", "partnerships"],
+			"expected_relations": []
+		},
+        "An organization has users":{
+			"expected_entities": ["organization", "users"],
+			"expected_relations": []
+		},
+        "One of the users of an organization is the manager":{
+			"expected_entities": ["users", "organization", "manager"],
+			"expected_relations": []
+		},
+        "Users has to belong to one organization":{
+			"expected_entities": ["Users", "organization"],
+			"expected_relations": ["has to belong to"]
+		},
+        "All organizations have the same roles in a partnership":{
+			"expected_entities": ["organizations", "roles", "partnership"],
+			"expected_relations": []
+		},
+        "Users can have different roles in the organization":{
+			"expected_entities": ["Users", "different roles", "organization"],
+			"expected_relations": ["can have"]
+		},
+        "user can create a group of services":{
+			"expected_entities": ["user", "group", "services"],
+			"expected_relations": ["can create"]
+		},
+        "The security can be set up at a group level":{
+			"expected_entities": ["security", "group level"],
+			"expected_relations": ["can be set up at"]
+		},
+        "Authorization can be set up at the level of properties":{
+			"expected_entities": ["Authorization", "level", "properties"],
+			"expected_relations": ["can be set up at"]
+		},
+        "A device can have a status":{
+			"expected_entities": ["device", "status"],
+			"expected_relations": ["can have"]
+		},
+        "A device can have a location":{
+			"expected_entities": ["device", "location"],
+			"expected_relations": ["can have"]
+		},
+        "A device has a unique identifier":{
+			"expected_entities": ["device", "unique identifier"],
+			"expected_relations": []
+    }, 
+    "VicinityWOT": {
+        "Things in the WoT architecture are represented by servients,":{
+			"expected_entities": ["Things", "WoT architecture", "servients"],
+			"expected_relations": ["are represented by"]
+		},
+        "Servient can represent virtual things as well.":{
+			"expected_entities": ["Servient", "virtual things"],
+			"expected_relations": ["can represent"]
+		},
+        "Servients are hosted anywhere, a smartphone, local gateway, or the cloud.":{
+			"expected_entities": ["Servients", "smartphone", "local gateway", "cloud"],
+			"expected_relations": ["are hosted"]
+		},
+        "Servient communicate to each other through a WoT interface":{
+			"expected_entities": ["Servient", "WoT interface"],
+			"expected_relations": ["communicate to"]
+		},
+        "Servient can have cliente or server roles or both.":{
+			"expected_entities": ["Servient", "cliente", "server roles", "both"],
+			"expected_relations": ["can have"]
+		},
+        "Thing Descriptions can be registered in Td repositories.":{
+			"expected_entities": ["Thing Descriptions", "Td repositories"],
+			"expected_relations": ["can be registered in"]
+		},
+        "A thing interaction can be available over different or multiple protocols":{
+			"expected_entities": ["thing interaction", "multiple protocols"],
+			"expected_relations": ["can be available over"]
+		},
+        "Each thing has at least an interaction pattern":{
+			"expected_entities": ["interaction pattern"],
+			"expected_relations": []
+		},
+        "An interaction pattern can have different endpoints":{
+			"expected_entities": ["An interaction pattern", "endpoints"],
+			"expected_relations": ["can have"]
+		},
+        "Each interaction pattern has its own attributes":{
+			"expected_entities": ["interaction pattern", "different endpoints"],
+			"expected_relations": ["can have"]
+		},
+        "Each interaction pattern has an endpoint":{
+			"expected_entities": ["interaction pattern", "an endpoint"],
+			"expected_relations": []
+		},
+        "Each endpoints has minimum two attributes: URI and mediatype":{
+			"expected_entities": ["endpoints", "attributes", "mediatype"],
+			"expected_relations": []
+		},
+        "Security is associated with things":{
+			"expected_entities": ["Security", "things"],
+			"expected_relations": ["is associated with"]
+		},
+        "An endpoint can be associated with a thing without determine the interaction patterns":{
+			"expected_entities": ["endpoint", "interaction patterns", "thing"],
+			"expected_relations": ["can be associated with", "determine"]
+		},
+        "Each interaction pattern has a name and a Web Resource address":{
+			"expected_entities": ["interaction pattern", "name", "Web Resource address"],
+			"expected_relations": []
+		},
+        "An interaction has a type and attributes":{
+			"expected_entities": ["An interaction", "attributes", "type"],
+			"expected_relations": []
+		},
+        "Each interaction pattern can be readable or writable through an endpoint":{
+			"expected_entities": ["interaction pattern", "endpoint"],
+			"expected_relations": ["can be readable", "writable through"]
+		},
+    },
+    "VicinityWOTMappings": {
+        "A TED describes one or more web thing":{
+			"expected_entities": ["TED", "web thing"],
+			"expected_relations": ["describes"]
+		},
+        "A TED refers to a service accesible in an URI":{
+			"expected_entities": ["TED", "service", "URI"],
+			"expected_relations": ["refers to", "accesible in"]
+		},
+        "A Thing ecosystem describes relations between TEDs":{
+			"expected_entities": ["Thing ecosystem", "relations", "TEDs"],
+			"expected_relations": ["describes"]
+		},
+        "A thing description  can have access mappings defined":{
+			"expected_entities": ["thing description", "access mappings"],
+			"expected_relations": ["can have", "defined"]
+		},
+        "An access mapping defines the transformation to be carried out for a specific key":{
+			"expected_entities": ["access mapping", "transformation", "specific key"],
+			"expected_relations": ["to be carried out", "defines"]
+		},
+        "An access mapping can have many mappings defined":{
+			"expected_entities": ["access mapping", "mappings"],
+			"expected_relations": ["can have", "defined"]
+		},
+        "A mapping can transform keys to object properties or datatype properties.":{
+			"expected_entities": ["mapping", "keys", "object properties", "datatype properties"],
+			"expected_relations": ["can transform"]
+		},
+        "An object property mapping transforms keys to object properties":{
+			"expected_entities": ["object property mapping", "keys", "object properties"],
+			"expected_relations": ["transforms"]
+		},
+        "A datatype property mapping transforms keys to datatype properties":{
+			"expected_entities": ["datatype property mapping", "keys", "datatype properties"],
+			"expected_relations": ["transforms"],
+        "An object property mapping can have many target classes to be the type of the generated instances":{
+			"expected_entities": ["object property mapping", "target classes", "generated instances"],
+			"expected_relations": ["can have"]
+		},
+        "A datatype property mapping can have many target datatypes to be the datatype of the generated values":{
+			"expected_entities": ["datatype property mapping", "target datatypes", "datatype", "generated values"],
+			"expected_relations": ["can have"]
+		},
+        "An object property mapping generate instances transforming values following the mappings defined in a another thing description.":{
+			"expected_entities": ["object property mapping", "instances", "values", "mappings", "thing description"],
+			"expected_relations": ["generate", "transforming", "defined in", "following"]
+		},
+        "A mapping might be needed to be executed before another mapping":{
+			"expected_entities": ["mapping", "mapping"],
+			"expected_relations": ["might be needed to be executed before"]
+		},
+        "A mapping has a JSON path":{
+			"expected_entities": ["mapping", "JSON path"],
+			"expected_relations": []
+		},
+        "An access mapping can be applied to at most to one endpoint":{
+			"expected_entities": ["access mapping", "endpoint"],
+			"expected_relations": ["can be applied to"]
+		},
+
+    }, 
+    "SAREF": {
+        "A device performs one or more functions":{
+			"expected_entities": ["device", "functions"],
+			"expected_relations": ["performs"]
+		},
+        "Examples of devices are a light switch, a temperature sensor, an energy meter, a washing machine":{
+			"expected_entities": ["Examples", "devices", "light switch", "temperature sensor", "energy meter", "washing machine"],
+			"expected_relations": []
+		},
+        "A device shall have a model property":{
+			"expected_entities": ["device", "model property"],
+			"expected_relations": ["shall have"]
+		},
+        "A device shall have a manufacturer property":{
+			"expected_entities": ["device", "manufacturer property"],
+			"expected_relations": ["shall have"]
+		},
+        "A device can optionally have a description":{
+			"expected_entities": ["device", "description"],
+			"expected_relations": ["can optionally have"]
+		},
+        "A building space defines the physical spaces of the building where a device is located, such as a kitchen or a living room":{
+			"expected_entities": ["building space", "physical spaces", "building", "device", "kitchen", "living room"],
+			"expected_relations": ["defines", "is located"]
+		},
+        "A building space contains devices or building objects":{
+			"expected_entities": ["building space", "devices", "building objects"],
+			"expected_relations": ["contains"]
+		},
+        "Building objects are objects in the building that can be controlled by devices, such as doors or windows":{
+			"expected_entities": ["Building objects", "objects", "building", "devices", "doors", "windows"],
+			"expected_relations": ["can be controlled by"]
+		},
+        "A building object can be opened or closed by an actuator":{
+			"expected_entities": ["building object", "actuator"],
+			"expected_relations": ["can be opened", "closed by"]
+		},
+        "A building space has also a property that can be used to specify the type of space, for example, the living room or the bedroom":{
+			"expected_entities": ["building space", "property", "space", "example", "living room", "bedroom"],
+			"expected_relations": ["can be used to specify"]
+		},
+        "A building space is a geographical point characterized by a certain altitude, latitude and longitude":{
+			"expected_entities": ["building space", "geographical point", "certain altitude", "latitude", "longitude"],
+			"expected_relations": ["characterized by"]
+		},
+        "The devices can be classified into categories: FunctionRelated, EneryRelated and BuildingRelated":{
+			"expected_entities": ["devices", "categories", "FunctionRelated", "EneryRelated", "BuildingRelated"],
+			"expected_relations": ["can be classified into"]
+		},
+        "The FunctionRelated category can be specialized into: Actuator, Applicance, HVAC, Lighting, Meter, MicroRenewable, Multimedia, Network, Sensor":{
+			"expected_entities": ["FunctionRelated category", "Actuator", "Applicance", "HVAC", "Lighting", "Meter", "MicroRenewable", "Multimedia", "Network", "Sensor"],
+			"expected_relations": ["can be specialized into"]
+		},
+        "The EnergyRelated category can be specialized into: Load, Generator and Storage":{
+			"expected_entities": ["EnergyRelated category", "Load", "Generator", "Storage"],
+			"expected_relations": ["can be specialized into"]
+		},
+        "The devices can belong to several categories":{
+			"expected_entities": ["devices", "categories"],
+			"expected_relations": ["can belong to"]
+		},
+        "A device can be used for the purpose of offering a commodity":{
+			"expected_entities": ["device", "commodity", "purpose"],
+			"expected_relations": ["can be used for", "offering"]
+		},
+        "Water or gas are examples of commodities":{
+			"expected_entities": ["Water", "gas", "examples", "commodities"],
+			"expected_relations": []
+		},
+        "A device can be used for the purpose of sensing":{
+			"expected_entities": ["device", "sensing", "purpose"],
+			"expected_relations": ["can be used for"]
+		},
+        "A device can be used for measuring a property":{
+			"expected_entities": ["device", "property"],
+			"expected_relations": ["can be used for measuring"]
+		},
+        "A device can be used for notifying a property":{
+			"expected_entities": ["device", "property"],
+			"expected_relations": ["can be used for notifying"]
+		},
+        "Examples of properties are temperature, energy or smoke":{
+			"expected_entities": ["Examples", "properties", "temperature", "energy", "smoke"],
+			"expected_relations": []
+		},
+        "A device can be used for the purpose of controlling a building object,such as a door or a window":{
+			"expected_entities": ["device", "purpose", "building object", "door", "window"],
+			"expected_relations": ["can be used for", "controlling"]
+		},
+        "A device may consists of other devices":{
+			"expected_entities": ["device", "devices"],
+			"expected_relations": ["may consists of"]
+		},
+        "A sensor is a device":{
+			"expected_entities": ["sensor", "device"],
+			"expected_relations": []
+		},
+        "A sensor performs a sensing function":{
+			"expected_entities": ["sensor", "sensing function"],
+			"expected_relations": ["performs"]
+		},
+        "A temperature sensor is a device that has category sensor":{
+			"expected_entities": ["temperature sensor", "device", "sensor"],
+			"expected_relations": []
+		},
+        "A temperature sensor consists of a sensor":{
+			"expected_entities": ["temperature sensor", "sensor"],
+			"expected_relations": ["consists of"]
+		},
+        "A temperature sensor performs the sensing function and is used for the purpose of sensing temperature":{
+			"expected_entities": ["temperature sensor", "sensing function", "purpose", "temperature"],
+			"expected_relations": ["performs", "is used for", "sensing"]
+		},
+        "A washing machine is a device that has category Appliance and Load":{
+			"expected_entities": ["washing machine", "device", "Appliance", "Load"],
+			"expected_relations": []
+		},
+        "A washing machine accomplishes the task of washing":{
+			"expected_entities": ["washing machine", "task", "washing"],
+			"expected_relations": ["accomplishes"]
+		},
+        "A washing machine performs an actuating start function":{
+			"expected_entities": ["washing machine", "actuating start function"],
+			"expected_relations": ["performs"]
+		},
+        "A smoke sensor is a device that has category Sensor":{
+			"expected_entities": ["smoke sensor", "device", "Sensor"],
+			"expected_relations": []
+		},
+        "A smoke sensor is a device that consists of a sensor":{
+			"expected_entities": ["smoke sensor", "device", "sensor"],
+			"expected_relations": ["consists of"]
+		},
+        "A smoke sensor performs a sensing and event function":{
+			"expected_entities": ["smoke sensor", "sensing and event function"],
+			"expected_relations": ["performs"]
+		},
+        "A smoke sensor is used for the purpose of sensing smoke":{
+			"expected_entities": ["smoke sensor", "purpose", "smoke"],
+			"expected_relations": ["is used for", "sensing"]
+		},
+        "A switch is a device that has category Actuator":{
+			"expected_entities": ["switch", "device", "Actuator"],
+			"expected_relations": []
+		},
+        "A door switch has category Actuator,":{
+			"expected_entities": ["door switch", "Actuator"],
+			"expected_relations": []
+		},
+        "A door switch is a device that consists of a switch":{
+			"expected_entities": ["door switch", "device", "switch"],
+			"expected_relations": ["consists of"]
+		},
+        "A door switch performs the open function":{
+			"expected_entities": ["door switch", "open function"],
+			"expected_relations": ["performs"]
+		},
+        "A door switch is used for the purpose of controlling doors":{
+			"expected_entities": ["door switch", "purpose", "doors"],
+			"expected_relations": ["is used for", "controlling"]
+		},
+        "A dimmer lamp is a device that has category Lighting and Actuator":{
+			"expected_entities": ["dimmer lamp", "device", "Lighting", "Actuator"],
+			"expected_relations": []
+		},
+        "A dimmer lamp performs an actuating level control":{
+			"expected_entities": ["dimmer lamp", "actuating level control"],
+			"expected_relations": ["performs"]
+		},
+        "A dimmer lamp is used for the purpose of controlling the light":{
+			"expected_entities": ["dimmer lamp", "purpose", "lamp", "light"],
+			"expected_relations": ["is used for", "controlling"]
+		},
+        "A meter is a functionRelated device":{
+			"expected_entities": ["meter", "functionRelated device"],
+			"expected_relations": []
+		},
+        "A meter performs a metering function":{
+			"expected_entities": ["meter", "metering function"],
+			"expected_relations": ["performs"],
+        "An energy meter is a device that has category Meter":{
+			"expected_entities": ["energy meter", "device", "Meter"],
+			"expected_relations": []
+		},
+        "An energy meter is a device that consists of a meter":{
+			"expected_entities": ["energy meter", "device", "meter"],
+			"expected_relations": ["consists of"]
+		},
+        "An energy meter is used for the purpose of measuring energy":{
+			"expected_entities": ["energy meter", "purpose", "energy"],
+			"expected_relations": ["is used for", "measuring"]
+		},
+        "A function represents the functionality necessary to accomplish the task for which a device is designed":{
+			"expected_entities": ["function", "functionality", "task", "device"],
+			"expected_relations": ["represents", "to accomplish", "is designed"]
+		},
+        "Examples of functions are the actuating, sensing, metering or event functions":{
+			"expected_entities": ["Examples", "functions", "actuating", "sensing", "metering", "event functions"],
+			"expected_relations": []
+		},
+        "An actuating function can be specialized into on/off, open/close, start/stop or level control functions":{
+			"expected_entities": ["actuating funciton", "on/off", "open/close", "start/stop", "level control functions"],
+			"expected_relations": ["can be specialized into"]
+		},
+        "A function can belong to a function category":{
+			"expected_entities": ["function", "function"],
+			"expected_relations": ["can belong to"]
+		},
+        "A function shall have at least one command associated to it":{
+			"expected_entities": ["function", "command"],
+			"expected_relations": ["shall have", "associated to"]
+		},
+        "The commands can be: on, off, open, toggle, close, start, pause, step up, step down, set level, get and notify":{
+			"expected_entities": ["commands"],
+			"expected_relations": ["can be", "on", "off", "open", "toggle", "close", "start", "pause", "step up", "step down", "set level", "get", "notify"],
+        "A device can be found in a correponding state":{
+			"expected_entities": ["device", "correponding state"],
+			"expected_relations": ["can be found in"]
+		},
+        "A command can act upon a state to represent that the consequence of a command can be a change of state of the device.":{
+			"expected_entities": ["command", "state", "consequence", "command", "change", "state", "device"],
+			"expected_relations": ["can act upon", "to represent", "can be"]
+		},
+        "A device offers a service":{
+			"expected_entities": ["device", "service"],
+			"expected_relations": ["offers"]
+		},
+        "A service is a representation of a function to a network that makes this function discoverable, registerable and remotely controllable by other devices in the network":{
+			"expected_entities": ["service", "representation", "function", "network", "this function", "devices", "network", "discoverable", "registerable", "remotely controllable"],
+			"expected_relations": []
+		},
+        "A service shall represent at least one function":{
+			"expected_entities": ["service", "function"],
+			"expected_relations": ["shall represent"]
+		},
+        "A service is offered by at least one device that wants its functions to be discoverable, registerable and remotely controllable by other devices in the network":{
+			"expected_entities": ["service", "device", "functions", "discoverable", "registerable", "remotely controllable", "devices", "network"],
+			"expected_relations": ["is offered by", "wants"]
+		},
+        "Multiple devices can offer the same service":{
+			"expected_entities": ["devices", "same service"],
+			"expected_relations": ["can offer"]
+		},
+        "A service shall specify the device that is offering the service":{
+			"expected_entities": ["service", "device", "service"],
+			"expected_relations": ["shall specify", "is offering"]
+		},
+        "A device can be characterized by a profile.":{
+			"expected_entities": ["device", "profile"],
+			"expected_relations": ["can be characterized by"]
+		},
+        "The profile allows to describe the energy or power production and consumption of a certain device.":{
+			"expected_entities": ["profile", "energy", "power production", "consumption", "certain device"],
+			"expected_relations": ["allows to describe"]
+		},
+        "The profile production and consumption can be calculated over a time span":{
+			"expected_entities": ["profile production", "consumption", "time span"],
+			"expected_relations": ["can be calculated over"]
+		},
+        "The profile production and consumption can be associated to some costs":{
+			"expected_entities": ["profile production", "consumption", "costs"],
+			"expected_relations": ["can be associated to"]
+		},
+        "The power is characterized by a certain value that is measured in a certain unit of measure":{
+			"expected_entities": ["power", "value", "unit", "measure"],
+			"expected_relations": ["is characterized by", "is measured in"]
+		},
+        "The energy is characterized by a certain value that is measured in a certain unit of measure":{
+			"expected_entities": ["energy", "value", "unit", "measure"],
+			"expected_relations": ["is characterized by", "is measured in"]
+		},
+        "The price is also characterized by a value using currency, which is a type of unit of measure":{
+			"expected_entities": ["price", "value", "currency", "unit", "measure"],
+			"expected_relations": ["is also characterized by", "using"]
+		},
+        "The time can be specified in terms of instants or intervals":{
+			"expected_entities": ["time", "terms", "instants", "intervals"],
+			"expected_relations": ["can be specified in"]
+		},
+    },
+    "SAREF4BLDG": {
+        "A building can contain devices":{
+			"expected_entities": ["building", "devices"],
+			"expected_relations": ["can contain"]
+		},
+    },
+    "SAREF4ENVI": {
+        "Each reading in a TESS has a timestamp":{
+			"expected_entities": ["reading", "TESS", "timestamp"],
+			"expected_relations": []
+		},
+        "Physical objects can contain devices":{
+			"expected_entities": ["Physical objects", "devices"],
+			"expected_relations": ["can contain"]
+		},
+        "A sensor could be a person":{
+			"expected_entities": ["sensor", "person"],
+			"expected_relations": ["could be"]
+		},
+        "Devices might have different versions and revision numbers":{
+			"expected_entities": ["Devices", "versions", "revision numbers"],
+			"expected_relations": ["might have"]
+		},
+        "A device is located in a given geographical point defined by a latitude and a longitude":{
+			"expected_entities": ["device", "geographical point", "latitude", "longitude"],
+			"expected_relations": ["is located in", "defined by"]
+		},
+        "A device position is defined using the azimuth and altitude horizontal coordinates":{
+			"expected_entities": ["device position", "azimuth", "altitude horizontal coordinates"],
+			"expected_relations": ["is defined using"]
+		},
+        "A sensing device takes measures following a frequency":{
+			"expected_entities": ["sensing device", "measures", "frequency"],
+			"expected_relations": ["takes", "following"]
+		},
+        "A device can be actionable or not":{
+			"expected_entities": ["device", "actionable"],
+			"expected_relations": ["can be"]
+		},
+        "A device is part of a system":{
+			"expected_entities": ["device", "part", "system"],
+			"expected_relations": []
+		},
+        "An actuator is a type of device":{
+			"expected_entities": ["actuator", "device"],
+			"expected_relations": []
+		},
+        "A device has energy consumption":{
+			"expected_entities": ["device", "energy consumption"],
+			"expected_relations": []
+		},
+        "A lamppost uses a given light generation method":{
+			"expected_entities": ["lamppost", "light generation method"],
+			"expected_relations": ["uses"]
+		},
+        "A lamppost has energy consumption":{
+			"expected_entities": ["lamppost", "energy consumption"],
+			"expected_relations": []
+		},
+        "A lamppost might have a light shield":{
+			"expected_entities": ["lamppost", "light shield"],
+			"expected_relations": ["might have"]
+		},
+        "A light has a geometry":{
+			"expected_entities": ["light", "geometry"],
+			"expected_relations": []
+		},
+        "A light is projected in a given direction":{
+			"expected_entities": ["light", "given direction"],
+			"expected_relations": ["is projected in"]
+		},
+        "A light is projected in a given angle":{
+			"expected_entities": ["light", "given angle"],
+			"expected_relations": ["is projected in"]
+		},
+        "A light is projected from a given height":{
+			"expected_entities": ["light", "given height"],
+			"expected_relations": ["is projected from"]
+		},
+        "A light has a colour":{
+			"expected_entities": ["light", "colour"],
+			"expected_relations": []
+		},
+        "A light can have flash":{
+			"expected_entities": ["light", "flash"],
+			"expected_relations": ["can have"]
+		},
+        "A digital representation of an object has a name":{
+			"expected_entities": ["digital representation", "object", "name"],
+			"expected_relations": []
+		},
+        "A digital representation of an object has a description":{
+			"expected_entities": ["digital representation", "object", "description"],
+			"expected_relations": []
+		},
+        "A physical object has a description":{
+			"expected_entities": ["physical object", "description"],
+			"expected_relations": []
+		},
+        "A digital representation of an object has a unique identifier":{
+			"expected_entities": ["digital representation", "object", "unique identifier"],
+			"expected_relations": []
+		},
+        "A digital representation of an object can have zero or more tags":{
+			"expected_entities": ["digital representation", "object", "tags"],
+			"expected_relations": ["can have"]
+		},
+        "A digital representation of an object has exactly one creation date":{
+			"expected_entities": ["digital representation", "object", "creation date"],
+			"expected_relations": []
+		},
+        "A digital representation of an object includes the date in which some characteristic of object was last modified":{
+			"expected_entities": ["digital representation", "object", "date", "characteristic", "object"],
+			"expected_relations": ["includes", "last modified"]
+		},
+        "A sensing device produces a log of property observations":{
+			"expected_entities": ["sensing device", "log", "property observations"],
+			"expected_relations": ["produces"]
+		},
+        "A log indicates which is its last value":{
+			"expected_entities": ["log", "value"],
+			"expected_relations": ["indicates"]
+		},
+        "Values in a log are related to the time in which they were observed":{
+			"expected_entities": ["Values", "log", "time"],
+			"expected_relations": ["are related to", "were observed"]
+		},
+        "A physical representation of an object includes an observation log for each property to be observed":{
+			"expected_entities": ["physical representation", "object", "observation log", "property"],
+			"expected_relations": ["includes", "to be observed"]
+		},
+        "An observation value is measured in a given unit":{
+			"expected_entities": ["observation value", "given unit"],
+			"expected_relations": ["is measured in"]
+		},
+        "Physical objects can have digital representations that are accessible through services":{
+			"expected_entities": ["Physical objects", "digital representations", "services"],
+			"expected_relations": ["can have", "are accessible through"]
+		},
+        "A service can expose either none or multiple digital representations of an object":{
+			"expected_entities": ["service", "digital representations", "object"],
+			"expected_relations": ["can expose"]
+		},
+        "A digital representation of an object is exposed at maximum by one service":{
+			"expected_entities": ["digital representation", "object", "service"],
+			"expected_relations": ["is exposed at"]
+		},
+        "A digital representation of an object performs actions":{
+			"expected_entities": ["digital representation", "object", "actions"],
+			"expected_relations": ["performs"]
+		},
+        "An action manages an actuator":{
+			"expected_entities": ["action", "actuator"],
+			"expected_relations": ["manages"]
+		},
+        "An action of a digital representation of an object can keep an action log":{
+			"expected_entities": ["action", "digital representation", "object", "action log"],
+			"expected_relations": ["can keep"]
+		},
+        "A property of a digital representation of an object can keep an observation log":{
+			"expected_entities": ["property", "digital representation", "object", "observation log"],
+			"expected_relations": ["can keep"]
+		},
+        "A digital representation of an object encapsulates a system":{
+			"expected_entities": ["digital representation", "object", "system"],
+			"expected_relations": ["encapsulates"]
+		},
+    }, 
+    "ONEM2M": {
+        "A thing is an entity that can be identified in the oneM2M System.":{
+			"expected_entities": ["thing", "entity", "oneM2M System"],
+			"expected_relations": ["can be identified in"]
+		},
+        "A thing may have properties":{
+			"expected_entities": ["thing", "properties"],
+			"expected_relations": ["may have"]
+		},
+        "A thing can have relations to other things":{
+			"expected_entities": ["thing", "relations", "things"],
+			"expected_relations": ["can have"]
+		},
+        "An aspect could be an entity or it could be a quality":{
+			"expected_entities": ["aspect", "entity", "quality"],
+			"expected_relations": ["could be"]
+		},
+        "An aspect can have metadata":{
+			"expected_entities": ["aspect", "metadata"],
+			"expected_relations": ["can have"]
+		},
+        "Metadata contain data about a variable or about an aspect":{
+			"expected_entities": ["Metadata", "data", "variable", "aspect"],
+			"expected_relations": ["contain"]
+		},
+        "A device is a thing that is able to interact electronically with its environment via a network":{
+			"expected_entities": ["device", "thing", "environment", "network"],
+			"expected_relations": ["is able to interact electronically"]
+		},
+        "A device may be a physical or non-physical entity":{
+			"expected_entities": ["device", "non-physical entity"],
+			"expected_relations": ["may be"]
+		},
+        "A device performs one or more functionalities in order to accomplish a particular task":{
+			"expected_entities": ["device", "functionalities", "particular task"],
+			"expected_relations": ["performs", "to accomplish"]
+		},
+        "A device has one or more services that expose in the network its functionalities":{
+			"expected_entities": ["device", "services", "network", "functionalities"],
+			"expected_relations": ["expose in"]
+		},
+        "A device can be composed of several devices":{
+			"expected_entities": ["device", "devices"],
+			"expected_relations": ["can be composed of"]
+		},
+        "An interworked device is a device that does not support oneM2M interfaces and can only be accessed from the oneM2M System by communicating with a proxied device that has been created by an interworking proxy entity":{
+			"expected_entities": ["interworked device", "device", "oneM2M interfaces", "oneM2m System", "proxied device", "interworking proxy entity"],
+			"expected_relations": ["support", "be accessed from", "by communicating with", "has been created by"]
+		},
+        "An interworked device is part of an area network":{
+			"expected_entities": ["interworked device", "part", "area network"],
+			"expected_relations": []
+		},
+        "An area network is a network that provides data transport services between an interworked device and the oneM2M System":{
+			"expected_entities": ["area network", "network", "data transport services", "interworked device", "oneM2M System"],
+			"expected_relations": ["provides"]
+		},
+        "An area network follows a standard that defines its physical properties":{
+			"expected_entities": ["area network", "standard", "physical properties"],
+			"expected_relations": ["follows", "defines"]
+		},
+        "An area network follows a communication protocol":{
+			"expected_entities": ["area network", "communication protocol"],
+			"expected_relations": ["follows"]
+		},
+        "An area network follows a profile":{
+			"expected_entities": ["area network", "profile"],
+			"expected_relations": ["follows"]
+		},
+        "A service is an electronic representation of a functionality in a network":{
+			"expected_entities": ["service", "electronic representation", "functionality", "network"],
+			"expected_relations": []
+		},
+        "A service can expose one or more functionalities":{
+			"expected_entities": ["service", "functionalities"],
+			"expected_relations": ["can expose"]
+		},
+        "A service can be composed of independent services":{
+			"expected_entities": ["service", "independent services"],
+			"expected_relations": ["can be composed of"]
+		},
+        "A service has an operation":{
+			"expected_entities": ["service", "operation"],
+			"expected_relations": []
+		},
+        "A service has an input data point":{
+			"expected_entities": ["service", "input data point"],
+			"expected_relations": []
+		},
+        "A service has an output data point":{
+			"expected_entities": ["service", "output data point"],
+			"expected_relations": []
+		},
+        "A functionality represents the functionality necessary to accomplish the task for which a device is designed":{
+			"expected_entities": ["functionality", "functionality", "task", "device"],
+			"expected_relations": ["represents", "necessary to accomplish", "is designed"]
+		},
+        "A functionality refers to some real-world aspect":{
+			"expected_entities": ["functionality", "real-world aspect"],
+			"expected_relations": ["refers to"]
+		},
+        "A functionality has commands that allow human users to influence such functionality":{
+			"expected_entities": ["functionality", "commands", "human users", "functionality"],
+			"expected_relations": ["allow", "to influence"]
+		},
+        "A controlling functionality represents a functionality that has impacts on the real world, but does not gather data":{
+			"expected_entities": ["controlling functionality", "functionality", "real world", "data", "impacts"],
+			"expected_relations": ["represents", "gather"]
+		},
+        "A measuring functionality represents a functionality that has no impacts on the real world, but only gathers data":{
+			"expected_entities": ["measuring functionality", "functionality", "impacts", "real world", "data"],
+			"expected_relations": ["represents", "gathers"]
+		},
+        "An operation is the means of a service to communicate in a procedure-type manner over the network":{
+			"expected_entities": ["operation", "means", "service", "procedure-type manner", "network"],
+			"expected_relations": ["to communicate in"]
+		},
+        "An operation is the machine interpretable exposure of a human understandable command to a network":{
+			"expected_entities": ["operation", "machine interpretable exposure", "human understandable command", "network"],
+			"expected_relations": []
+		},
+        "An operation may receive input data from input data points":{
+			"expected_entities": ["operation", "input data", "input data points"],
+			"expected_relations": ["may receive"]
+		},
+        "An operation may receive data from operation inputs":{
+			"expected_entities": ["operation", "data", "operation inputs"],
+			"expected_relations": ["may receive"]
+		},
+        "An operation may produce output data into output data points":{
+			"expected_entities": ["operation", "output data", "output data points"],
+			"expected_relations": ["may produce"]
+		},
+        "An operation may produce data into operation outputs":{
+			"expected_entities": ["operation", "data", "operation outputs"],
+			"expected_relations": ["may produce"]
+		},
+        "An operation has an operation state that allows a oneM2M entity to get informed on the progress of that operation":{
+			"expected_entities": ["operation", "operation state", "oneM2M entity", "progress", "operation"],
+			"expected_relations": ["allows", "to get informed on"]
+		},
+        "An operation has a method":{
+			"expected_entities": ["operation", "method"],
+			"expected_relations": []
+		},
+        "An operation has a target URI":{
+			"expected_entities": ["operation", "target URI"],
+			"expected_relations": []
+		},
+        "A command represents an action that can be performed to support a functionality":{
+			"expected_entities": ["command", "action", "functionality"],
+			"expected_relations": ["represents", "can be performed to support"]
+		},
+        "A command has as input one or more operation inputs":{
+			"expected_entities": ["command", "input", "operation inputs"],
+			"expected_relations": []
+		},
+        "A command has as output one or more operation outputs":{
+			"expected_entities": ["command", "output", "operation outputs"],
+			"expected_relations": []
+		},
+        "An operation input describes an input of an operation and also describes the input of a command":{
+			"expected_entities": ["operation input", "input", "operation", "input", "command"],
+			"expected_relations": ["describes", "describes"]
+		},
+        "An operation output describes an output of an operation and also describes the output of a command":{
+			"expected_entities": ["operation output", "output", "operation", "output", "command"],
+			"expected_relations": ["describes", "describes"]
+		},
+        "An operation state describes the current state of an operation":{
+			"expected_entities": ["operation state", "current state", "operation"],
+			"expected_relations": ["describes"]
+		},
+        "An operation state is a simple type variable":{
+			"expected_entities": ["operation state", "simple type variable"],
+			"expected_relations": []
+		},
+        "An operation state has exactly one data restriction pattern":{
+			"expected_entities": ["operation state", "data restriction pattern"],
+			"expected_relations": []
+		},
+        "An input data point is a variable of a service that is accessed by a RESTful device in its environment and that the device reads out autonomously":{
+			"expected_entities": ["input data point", "variable", "service", "RESTful device", "environment", "device"],
+			"expected_relations": ["is accessed by", "reads out autonomously"]
+		},
+        "An output data point is a variable of a service that is set by a RESTful device in its environment and that the device updates autonomously":{
+			"expected_entities": ["output data point", "variable", "service", "RESTful device", "environment", "device"],
+			"expected_relations": ["is set by", "updates autonomously"]
+		},
+        "A variable describes an entity that stores some data that can change over time":{
+			"expected_entities": ["variable", "entity", "data", "time"],
+			"expected_relations": ["describes", "stores", "can change over"]
+		},
+        "A variable describes a real-world aspect":{
+			"expected_entities": ["variable", "real-world aspect"],
+			"expected_relations": ["describes"]
+		},
+        "A variable can have metadata":{
+			"expected_entities": ["variable", "metadata"],
+			"expected_relations": ["can have"]
+		},
+        "A variable can be structured using other variables":{
+			"expected_entities": ["variable", "variables"],
+			"expected_relations": ["can be structured using"]
+		},
+        "A variable may have a value":{
+			"expected_entities": ["variable", "value"],
+			"expected_relations": ["may have"]
+		},
+        "A variable has a CRUD method through which the instantiation of the variable value can be manipulated":{
+			"expected_entities": ["variable", "CRUD method", "instantiation", "variable value"],
+			"expected_relations": ["can be manipulated"]
+		},
+        "A variable has a URI of a resource through which the instantiation of the value of the variable can be manipulated":{
+			"expected_entities": ["variable", "URI", "resource", "instantiation", "value", "variable"],
+			"expected_relations": ["can be manipulated"]
+		},
+        "A simple type variable is a variable that only consists of variables of simple XML types like xsd:integer, xsd:string, etc., potentially including restrictions":{
+			"expected_entities": ["simple type variable", "variable", "variables", "simple XML types", "xsd:integer", "xsd:string", "restrictions"],
+			"expected_relations": ["consists of", "potentially including"]
+		},
+        "A simple type variable contains the name of the attribute of the resource that is referenced with the target URI and that stores the value of the simple type variable":{
+			"expected_entities": ["simple type variable", "name", "attribute", "resource", "target URI", "value", "simple type variable"],
+			"expected_relations": ["contains", "is referenced with", "stores"]
+		},
+        "A simple type variable has exactly one datatype":{
+			"expected_entities": ["simple type variable", "datatype"],
+			"expected_relations": []
+		},
+        "A simple type variable has a data restriction":{
+			"expected_entities": ["simple type variable", "data restriction"],
+			"expected_relations": []
+		},
+    },
+    "ODRL": {
+        "A single option for applying a constraint to a party should be defined.":{
+			"expected_entities": ["single option", "constraint", "party"],
+			"expected_relations": ["for applying", "should be defined"]
+		},
+        "It should be possible to define the target of a constraint inside a Permission, Prohibition or Duty: a constraint of human age applies to the Assignee, a constraint of play time applies to Assets.":{
+			"expected_entities": ["target", "constraint", "Permission", "Prohibition", "Duty", "constraint", "human age", "Assignee", "constraint", "play time", "Assets"],
+			"expected_relations": ["should be possible to define", "applies to", "applies to"]
+		},
+        "The current data model assumes a policy instance includes all required data explicitly. This should be extended to policy instances which include explicit data and variables for values which are defined by parameters provided by an access to this template.":{
+			"expected_entities": ["current data model", "policy instance", "explicit data", "explicitly", "policy instances", "data", "variables", "values", "parameters", "access", "this template"],
+			"expected_relations": ["assumes", "includes all", "should be extended to", "include", "are defined by", "provided by"]
+		},
+        "In addition to the existing identifiers of a policy means for expressing a version of this policy should specified.":{
+			"expected_entities": ["existing identifiers", "policy means", "version", "this policy"],
+			"expected_relations": ["for expressing", "should specified"]
+		},
+        "It should be possible to define the price for duty of payment for all permissions of a policy in a global way - while currently the payment duty must be defined for each permission individually.":{
+			"expected_entities": ["price", "duty", "payment", "permissions", "policy", "global way", "payment duty", "permission"],
+			"expected_relations": ["should be possible to define", "must be defined for"]
+		},
+        "Extend the temporal constraints by setting a time reference, any period in the rightOperand refers to this point in time.":{
+			"expected_entities": ["temporal constraints", "time reference", "period", "rightOperand", "point", "time"],
+			"expected_relations": ["Extend", "by setting", "refers to"]
+		},
+        "For a relativeTimePeriod constraint the rightOperand has to provide a time period as value.":{
+			"expected_entities": ["relativeTimePeriod constraint", "rightOperand", "time period", "value"],
+			"expected_relations": ["has to provide"]
+		},
+        "Being able to tie Permission, Prohibition, Duty, and Constraint entities together with an AND, OR or XOR relationship":{
+			"expected_entities": ["Permission", "Prohibition", "Duty", "Constraint entities", "AND", "OR", "XOR relationship"],
+			"expected_relations": ["Being able to tie"]
+		},
+        "Being able to assign multiple individuals of type Party to a Group for which permissions can be specified.":{
+			"expected_entities": ["individuals", "type Party", "Group", "permissions"],
+			"expected_relations": ["Being able to assign", "can be specified"]
+		},
+        "Ability to link from a Policy or a Permission to the original license.":{
+			"expected_entities": ["Ability", "Policy", "Permission", "original license"],
+			"expected_relations": ["to link from"]
+		},
+        "It should be possible to define policies of type Assertion.":{
+			"expected_entities": ["policies", "Assertion"],
+			"expected_relations": ["should be possible to define"]
+		},
+        "An Assertion policy does not grant any permissions, but reflects policy terms that a party believes to have.":{
+			"expected_entities": ["Assertion policy", "permissions", "policy terms", "party"],
+			"expected_relations": ["grant", "reflects", "believes to have"]
+		},
+    },
+    "BTO": {
+        "Zones are areas with spatial 3D volumes":{
+			"expected_entities": ["Zones", "areas", "spatial 3D volumes"],
+			"expected_relations": []
+		},
+        "Construction sites are areas with spatial 3D volumes":{
+			"expected_entities": ["Construction sites", "areas", "spatial 3D volumes"],
+			"expected_relations": []
+		},
+        "Buildings are areas with spatial 3D volumes":{
+			"expected_entities": ["Buildings", "areas", "spatial 3D volumes"],
+			"expected_relations": []
+		},
+        "Storeys are areas with spatial 3D volumes":{
+			"expected_entities": ["Storeys", "areas", "spatial 3D volumes"],
+			"expected_relations": []
+		},
+        "Spaces are limited three-dimensional extent defined physically or notionally, and are areas with spatial 3D volumes":{
+			"expected_entities": ["Spaces", "limited three-dimensional extent", "areas", "spatial 3D volumes"],
+			"expected_relations": ["defined physically", "notionally"]
+		},
+        "Zones may contain other zones":{
+			"expected_entities": ["Zones", "zones"],
+			"expected_relations": ["may contain"]
+		},
+        "Construction sites may contain buildings":{
+			"expected_entities": ["Construction sites", "buildings"],
+			"expected_relations": ["may contain"]
+		},
+        "Buildings may contain storeys":{
+			"expected_entities": ["Buildings", "storeys"],
+			"expected_relations": ["may contain"]
+		},
+        "Storeys may contain spaces":{
+			"expected_entities": ["Storeys", "spaces"],
+			"expected_relations": ["may contain"]
+		},
+        "Spaces may be contained in storeys, buildings, and construction sites":{
+			"expected_entities": ["Spaces", "storeys", "buildings", "construction sites"],
+			"expected_relations": ["may be contained in"]
+		},
+        "Spaces may intersect different storeys, buildings, and construction sites":{
+			"expected_entities": ["Spaces", "storeys", "buildings", "construction sites"],
+			"expected_relations": ["may intersect"]
+		},
+        "A zone can be adjacent to another zone":{
+			"expected_entities": ["zone", "zone"],
+			"expected_relations": ["can be adjacent to"]
+		},
+        "There are building elements":{
+			"expected_entities": ["building elements"],
+			"expected_relations": []
+		},
+        "Building elements may have sub elements":{
+			"expected_entities": ["Building elements", "sub elements"],
+			"expected_relations": ["may have"]
+		},
+        "Zones may have elements, either contained in it, or adjacent to it":{
+			"expected_entities": ["Zones", "elements"],
+			"expected_relations": ["may have", "contained in", "adjacent to"]
+		},
+        "A zone and an adjacent zone share an interface":{
+			"expected_entities": ["zone", "adjacent zone", "interface"],
+			"expected_relations": ["share"]
+		},
+        "A zone and an adjacent element share an interface":{
+			"expected_entities": ["zone", "adjacent element", "interface"],
+			"expected_relations": ["share"]
+		},
+        "An element and an adjacent element share an interface":{
+			"expected_entities": ["element", "adjacent element", "interface"],
+			"expected_relations": ["share"]
+		},
+    }
+}
