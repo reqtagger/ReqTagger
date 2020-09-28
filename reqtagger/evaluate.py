@@ -1,3 +1,4 @@
+from spacy.cli.download import download as spacy_download
 import spacy
 import re
 import json
@@ -5,13 +6,23 @@ from eval_data import cqs, sents
 from reqtagger import ReqTagger
 
 
-spacy_nlp = spacy.load('en_core_web_md')
-for scenario in [{"use_ud": True, "old": True}, {"use_ud": True, "old": False}, {"use_ud": False, "old": False}]:
+def load_spacy(model_name):
+    try:
+        model = spacy.load(model_name)
+    except OSError:
+        print(f"Spacy models '{model_name}' not found.  Downloading and installing.")
+        spacy_download(model_name)
+        model = spacy.load(model_name)
+    return model
 
-    req = ReqTagger(spacy_nlp, scenario['use_ud'], scenario['old'])
+
+spacy_nlp = load_spacy('en_core_web_md')
+
+for scenario in [{"universal_dependencies": True, "cq2sparqlowl": True}, {"universal_dependencies": True, "cq2sparqlowl": False}, {"universal_dependencies": False, "cq2sparqlowl": False}]:
+    req = ReqTagger(spacy_nlp, scenario['universal_dependencies'], scenario['cq2sparqlowl'])
     for dataset, name in [(cqs, "CQs"), (sents, "Sentences")]:
         result = {}
-        filename = f"UniversalDeps:{scenario['use_ud']}_OldRules:{scenario['old']}_{name}.json"
+        filename = f"UniversalDeps:{scenario['universal_dependencies']}_cq2sparqlowlRules:{scenario['cq2sparqlowl']}_{name}.json"
         with open(filename, 'w') as fout:
             TOTAL_EC = 0
             TOTAL_PC = 0
@@ -54,5 +65,5 @@ for scenario in [{"use_ud": True, "old": True}, {"use_ud": True, "old": False}, 
 
             P_PC = TP_PC / (TP_PC + FP_PC)
             R_PC = TP_PC / (TP_PC + FN_PC)
-            print(f"Scenario [UniversalDeps: {scenario['use_ud']}, OldRules: {scenario['old']}] Processing {name}: Total EC count: {TOTAL_EC}, total PC count: {TOTAL_PC}, \nEC Prec: {P_EC}, Recall: {R_EC} F1: {2*P_EC*R_EC/(P_EC+R_EC)} \nPC Prec: {P_PC}, Recall: {R_PC}  F1: {2*P_PC*R_PC/(P_PC+R_PC)}")
+            print(f"Scenario [UniversalDeps: {scenario['universal_dependencies']}, cq2sparqlowlRules: {scenario['cq2sparqlowl']}] Processing {name}: Total EC count: {TOTAL_EC}, total PC count: {TOTAL_PC}, \nEC Prec: {P_EC}, Recall: {R_EC} F1: {2*P_EC*R_EC/(P_EC+R_EC)} \nPC Prec: {P_PC}, Recall: {R_PC}  F1: {2*P_PC*R_PC/(P_PC+R_PC)}")
             fout.write(json.dumps(result, sort_keys=True, indent=4))
