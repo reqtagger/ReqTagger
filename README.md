@@ -1,5 +1,5 @@
 # ReqTagger
-ReqTagger - A rule-based tagger for automatic Glossary of Termsextraction from ontology requirements
+ReqTagger - A rule-based tagger for automatic `Glossary of Terms` extraction from ontology requirements.
 
 ## The tool
 
@@ -11,9 +11,9 @@ In order to run `ReqTagger` SpaCy has to be installed using `pip install spacy` 
 ### ReqTagger running
 `ReqTagger` can be run using the following commands:
 
-`cd reqtagger` -- move to the folder with the implementation
-Install all dependencies with `pip install -r requirements.txt`
-`python3 tagger.py` -- run the script which extracts entities and relations in the loop
+- `cd reqtagger` -- move to the folder with the implementation
+- `pip install -r requirements.txt` -- install all requirements
+- `python3 tagger.py` -- run the script which extracts entities and relations in the loop
 
 ![alt text](example.png "Example run")
 
@@ -44,11 +44,9 @@ For comparison purposes we added an evaluator measuring the quality of [CRF-base
 
 In order to train models and evaluate on our evaluation set, one has to:
 
-Move to a folder with `CRF tagger` with `cd crf_tagger_evaluation`
-
-Install all dependencies with `pip install -r requirements.txt`
-
-Run `python3 test_crf_cqs.py`. 
+- Move to a folder with `CRF tagger` with `cd crf_tagger_evaluation`
+- Install all dependencies with `pip install -r requirements.txt`
+- Run `python3 test_crf_cqs.py`. 
 
 The script trains various models:
 - model tagging entities trained on [SWO materialized Competency Questions](crf_tagger_evaluation/data/train.conll).
