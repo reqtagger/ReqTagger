@@ -9,7 +9,9 @@ class ReqTagger:
                 'have', 'had', 'can', 'could', 'regarding',
                 'is of', 'are of', 'are in', 'given', 'is there', 'has']
 
-    NON_ENTITY_THINGS =  []
+    NON_ENTITY_THINGS =  ['a kind', 'the kind', 'kind', 'kinds', 'the kinds',
+                'category', 'a category', 'the category', 'categories', 'the categories',
+                'type', 'a type', 'the type', 'types', 'the types']
 
     RULES_CQ2SPARQLOWL_RELATIONS = [
         ['{0+}PART|VERB', 'VERB'],

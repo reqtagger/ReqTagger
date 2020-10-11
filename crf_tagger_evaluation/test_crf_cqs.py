@@ -848,6 +848,13 @@ def filter_auxilaries(outs):
         result.append(re.sub(r'^([Aa]m|[Aa]re|[Ii]s|[Ww]as|[Ww]ill|[Ww]ould|[Ss]hall|[Ss]hould|[Cc]an|[Mm]ight|[Mm]ay|[Mm]ust|[Cc]ould|[Dd]o|[Dd]oes|[Dd]id)( be| been)? ', '', obj))
     return result
 
+
+NON_ENTITY_THINGS =  ['a kind', 'the kind', 'kind', 'kinds', 'the kinds',
+                      'category', 'a category', 'the category', 'categories', 'the categories',
+                      'type', 'a type', 'the type', 'types', 'the types']
+
+NON_ENTITY_THINGS = set(NON_ENTITY_THINGS)
+
 for reqtype, name in [(cqs, "CQs"), (sents, "statements")]:
     for model in ['entitiesSWO.crfsuite', 'entitiesALL.crfsuite']:
         tagger = CRFTagger(f"models/{model}")
@@ -861,6 +868,7 @@ for reqtype, name in [(cqs, "CQs"), (sents, "statements")]:
         for ontology in reqtype:
             for (cq, ecs, pcs) in reqtype[ontology]:
                 out = tagger.tag(cq)
+                out = set(out) - NON_ENTITY_THINGS
                 out = filter_determiners(out)
                 ecs = filter_determiners(ecs)
 
@@ -891,7 +899,13 @@ for reqtype, name in [(cqs, "CQs"), (sents, "statements")]:
                         'have', 'had', 'can', 'could', 'regarding',
                         'is of', 'are of', 'are in', 'given', 'is there', 'has']
 
+        NON_ENTITY_THINGS =  ['a kind', 'the kind', 'kind', 'kinds', 'the kinds',
+                        'category', 'a category', 'the category', 'categories', 'the categories',
+                        'type', 'a type', 'the type', 'types', 'the types']
+
+
         NON_PREDICATE_THING = set(NON_PREDICATE_THING)
+        NON_ENTITY_THINGS = set(NON_ENTITY_THINGS)
 
 
         for ontology in reqtype:
